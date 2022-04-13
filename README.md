@@ -1,4 +1,5 @@
 # 工程简介
+美团leaf项目地址(https://github.com/Meituan-Dianping/Leaf  )  
 二开美团leaf分布式ID  
 主要改造注册配置中心到nacos，数据库适配mysql8.0，屏蔽zk接口，依赖版本升级，整体项目结构重建，代码大部分复用开源代码。
 
@@ -24,7 +25,7 @@ http://localhost:8081/actuator/health
 # 部署文档
 ## nacos相关新增配置
 name: `leaf.properties`  
-group: `leaf`
+group: `leaf`  
 type: `properties`  
 ```
 leaf.name=imi-leaf-server
