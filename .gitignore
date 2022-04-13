@@ -13,3 +13,4 @@ target/
 logs/
 log/
 .mvn
+src/main/resources/bootstrap-product.properties
